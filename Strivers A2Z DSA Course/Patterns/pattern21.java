@@ -1,13 +1,13 @@
 package Patterns;
 import java.util.*;
-public class pattern21 {
+public class Pattern21{
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args){
         System.out.println("Enter the value of n: ");
         int n= sc.nextInt();
-        pattern21(n);
+        pat21(n);
     }
-    public static void pattern21(int n){
+    public static void pat21(int n){
         for(int i=0;i<n;i++){
             if(i==0||i==(n-1)){
                 for(int j=0;j<n;j++){System.out.print("*");}
