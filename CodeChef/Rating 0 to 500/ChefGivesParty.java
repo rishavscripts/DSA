@@ -9,7 +9,7 @@ public class ChefGivesParty {
             int n=sc.nextInt();
             int x=sc.nextInt();
             int k=sc.nextInt();
-            if(n==(k/x)){System.out.println("YES");}
+            if(n<=(k/x)){System.out.println("YES");}
             else{System.out.println("NO");}
         }
 	}
