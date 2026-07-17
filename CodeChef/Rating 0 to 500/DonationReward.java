@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ReachHome {
+public class DonationReward {
     static Scanner sc = new Scanner(System.in);
 	public static void main (String[] args) throws java.lang.Exception
 	{
@@ -8,10 +8,9 @@ public class ReachHome {
         int t=sc.nextInt();
         while(t-->0){
             int x=sc.nextInt();
-            int y=sc.nextInt();
-            if(x*5>=y){System.out.println("YES");}
-            else{System.out.println("NO");}
+            if(x<=3){System.out.println("BRONZE");}
+            else if(x>3&&x<=6){System.out.println("SILVER");}
+            else{System.out.println("GOLD");}
         }
 	}
 }
-
