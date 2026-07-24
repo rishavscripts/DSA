@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MinimumCoins {
+public class Minimum_Coins {
     static Scanner sc = new Scanner(System.in);
 	public static void main (String[] args) throws java.lang.Exception
 	{
