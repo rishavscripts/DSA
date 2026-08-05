@@ -1,0 +1,69 @@
+Geeks For Geeks Questions
+
+## 🔹 Basics
+1. **Length of Linked List** – Write a function to count the number of nodes in a linked list.  
+2. **Print Linked List** – Traverse and print all elements of a linked list.  
+3. **Search in a Linked List** – Given a key, check if it exists in the linked list.  
+4. **Linked List Insertion** – Insert a node at the beginning, end, or a given position.  
+5. **Deleting a given key** – Delete the first occurrence of a given key from the linked list.  
+6. **Deleting at given position** – Delete the node at a specific position in the linked list.  
+7. **Delete a Linked List** – Free all nodes of a linked list.  
+8. **Nth Node from Start** – Find the node at position N from the start.  
+9. **Nth Node from End** – Find the node at position N from the end.  
+10. **Size of Doubly Linked List** – Count the number of nodes in a doubly linked list.  
+
+---
+
+## 🔹 Easy Problems
+11. **Remove every k-th node** – Delete every k-th node from the linked list.  
+12. **Middle of a Linked List** – Find the middle element of the linked list.  
+13. **Count Occurrences** – Count how many times a given key appears in the linked list.  
+14. **Circular Linked List Traversal** – Traverse and print nodes of a circular linked list.  
+15. **Check if Circular** – Determine if a linked list is circular.  
+16. **Count Nodes in Circular List** – Count the number of nodes in a circular linked list.  
+17. **Deletion from Circular Linked List** – Delete a node from a circular linked list.  
+18. **Singly to Circular Conversion** – Convert a singly linked list into a circular linked list.  
+19. **Exchange first and last nodes** – Swap the first and last nodes in a circular linked list.  
+20. **Delete in a Doubly Linked List** – Delete a node from a doubly linked list.  
+21. **Reverse a Singly Linked List** – Reverse a singly linked list iteratively.  
+22. **Reverse a Doubly Linked List** – Reverse a doubly linked list.  
+
+---
+
+## 🔹 Medium Problems
+23. **Swap Nodes in Pairs** – Swap every two adjacent nodes in a linked list.  
+24. **Detect loop** – Check if a linked list contains a cycle.  
+25. **Length of loop** – Find the length of the cycle in a linked list.  
+26. **Design Browser History** – Implement browser history navigation using a linked list.  
+27. **Remove duplicates (sorted)** – Remove duplicate nodes from a sorted linked list.  
+28. **Remove duplicates (unsorted)** – Remove duplicate nodes from an unsorted linked list.  
+29. **Intersection of two Sorted Lists** – Find the intersection of two sorted linked lists.  
+30. **Partition a List** – Rearrange nodes so that all nodes less than x come before nodes greater than or equal to x.  
+31. **QuickSort on Singly Linked List** – Implement QuickSort algorithm on a linked list.  
+32. **Split Circular Linked List** – Split a circular linked list into two halves.  
+33. **Merge Two Sorted Lists** – Merge two sorted linked lists into one sorted list.  
+34. **Union and Intersection** – Find union and intersection of two linked lists.  
+35. **Merge Sort for Doubly Linked List** – Sort a doubly linked list using merge sort.  
+36. **Pairs with Sum in DLL** – Find all pairs in a doubly linked list that sum to a given value.  
+37. **Insert in Sorted DLL** – Insert a node in a sorted doubly linked list.  
+38. **Remove duplicates in DLL** – Remove duplicates from an unsorted doubly linked list.  
+39. **Rotate a Linked List** – Rotate a linked list by k positions.  
+40. **Rotate DLL by N nodes** – Rotate a doubly linked list by N nodes.  
+41. **Delete node with only pointer** – Delete a node when only a pointer to it is given.  
+42. **Segregate even and odd nodes** – Rearrange linked list so that all even nodes appear before odd nodes.  
+
+---
+
+## 🔹 Hard Problems
+43. **Merge K Sorted Lists** – Merge k sorted linked lists into one sorted list.  
+44. **Intersection point of two Linked Lists** – Find the node where two linked lists intersect.  
+45. **Implement LRU Cache** – Design an LRU cache using a doubly linked list and HashMap.  
+46. **Clone a linked list with random pointer** – Clone a linked list where each node has a random pointer.  
+47. **Binary Tree to DLL** – Convert a binary tree to a doubly linked list.  
+48. **Reverse in Groups (SLL)** – Reverse a singly linked list in groups of size k.  
+49. **Reverse in Groups (DLL)** – Reverse a doubly linked list in groups of size k.  
+50. **Sublist Search** – Check if one linked list is a sublist of another.  
+51. **Linked List from 2D Matrix** – Convert a 2D matrix into a linked list.  
+52. **Rotate block wise** – Rotate a linked list in blocks of size k.  
+53. **Multiply two numbers** – Multiply two numbers represented as linked lists.  
+54. **Delete N nodes after M nodes** – Delete N nodes after every M nodes in a linked list.  
