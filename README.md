@@ -1,5 +1,4 @@
 # DSA
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/rishavscripts/DSA.git)
 
 This repository contains a comprehensive collection of Data Structures and Algorithms (DSA) problems and their solutions in Java, sourced from various competitive programming platforms and educational resources. It is structured to facilitate learning and practice, from fundamental concepts to more advanced topics.
 
