@@ -1,0 +1,39 @@
+
+### 🔢 Arrays
+1. **Reverse an Array**  
+   Write a program to reverse the elements of an array in place.
+
+2. **Find Largest and Smallest Element**  
+   Given an array of integers, find the maximum and minimum values.
+
+3. **Second Largest Element**  
+   Find the second largest element in an array without sorting.
+
+4. **Frequency Count**  
+   Count the frequency of each element in an array.
+
+5. **Rotate Array**  
+   Rotate an array by `k` positions (both left and right rotations).
+
+---
+
+### 📊 Strings (Optional bridge before linked lists)
+6. **Palindrome Check**  
+   Check if a given string is a palindrome using arrays of characters.
+
+7. **Remove Duplicates**  
+   Remove duplicate characters from a string without using extra arrays.
+
+---
+
+### 🔗 Linked Lists
+8. **Create and Traverse a Linked List**  
+   Implement a singly linked list and print all its elements.
+
+9. **Insert at Beginning, End, and Position**  
+   Write functions to insert a node at the start, end, and a given position in a linked list.
+
+10. **Delete a Node by Value**  
+   Delete the first occurrence of a given value from a linked list.
+
+---
