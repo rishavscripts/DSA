@@ -1,0 +1,147 @@
+
+### 1. Basics, Loops & Control Flow
+
+**Q1. Prime Number Check**
+
+* **Task:** Write a function `int isPrime(int n)` that returns `1` if a number is prime and `0` otherwise.
+* **Core Concepts:** Loops, conditional logic, square root optimization ($\mathcal{O}(\sqrt{n})$ runtime).
+* **Placement Twist:** You are expected to check edge cases ($n \le 1$) and run the loop only up to $\sqrt{n}$ instead of $n-1$.
+
+**Q2. Swapping Without Extra Variables**
+
+* **Task:** Write a function to swap two integers without using a temporary third variable.
+* **Core Concepts:** Arithmetic operations (`+`/`-`) or bitwise XOR (`^`) operations.
+* **Placement Twist:** Watch out for integer overflow risks with addition/subtraction, making the bitwise XOR method preferred.
+
+**Q3. Fibonacci Series (Iterative vs Recursive)**
+
+* **Task:** Implement $N$-th Fibonacci term calculation using both iteration and recursion.
+* **Core Concepts:** Function calls, stack memory, time/space complexity analysis.
+
+---
+
+### 2. Arrays & Matrices
+
+**Q4. Rotate an Array by K Positions**
+
+* **Task:** Rotate an array of size $N$ to the right by $K$ steps.
+* **Core Concepts:** Array indexing, modular arithmetic ($K \% N$), reversing sub-arrays for an in-place $\mathcal{O}(N)$ solution.
+
+**Q5. Matrix Multiplication and Transpose**
+
+* **Task:** Multiply two $N \times N$ 2D matrices or transpose a non-square matrix in-place where applicable.
+* **Core Concepts:** Multi-dimensional arrays, nested loops, memory layout (row-major order).
+
+---
+
+### 3. Bit Manipulation
+
+**Q6. Count Set Bits & Check Power of Two**
+
+* **Task:**
+1. Write a function to count the number of set bits (1s) in an integer.
+2. Write a function to check if an integer is a power of 2 using a single expression.
+
+
+* **Core Concepts:** Bitwise AND (`&`), bit shifts (`<<`, `>>`), Brian Kernighan’s algorithm, `(n & (n - 1)) == 0`.
+
+**Q7. Toggle, Set, and Clear Specific Bits**
+
+* **Task:** Given an integer $N$ and position $P$, write functions/macros to:
+* Set the $P$-th bit to 1.
+* Clear the $P$-th bit to 0.
+* Toggle the $P$-th bit.
+
+
+* **Core Concepts:** Bitwise OR (`|`), AND with NOT (`& ~`), XOR (`^`), shift operators (`1 << P`).
+
+---
+
+### 4. Strings & Character Handling
+
+**Q8. In-Place String Reversal**
+
+* **Task:** Write a program to reverse a null-terminated string `char str[]` in-place without using `strrev()`.
+* **Core Concepts:** Two-pointer approach, null-terminator `\0`, character swapping.
+
+**Q9. Custom String Functions (`strcpy`, `strlen`, `strcmp`)**
+
+* **Task:** Implement your own version of standard library functions like `my_strlen(const char *s)` or `my_strcpy(char *dest, const char *src)`.
+* **Core Concepts:** String arrays vs. string literals, character arithmetic, null termination.
+
+**Q10. Palindrome & Anagram Check**
+
+* **Task:** Check if a string is a palindrome or if two strings are anagrams of each other.
+* **Core Concepts:** ASCII values, character frequency arrays (hashing using fixed-size arrays).
+
+---
+
+### 5. Pointers & Memory Layout
+
+**Q11. Pointer Arithmetic & Array Decay**
+
+* **Task:** Write a code snippet to demonstrate how incrementing a pointer (`ptr + 1`) scales by `sizeof(type)`, and show the difference between `&arr` and `&arr[0]`.
+* **Core Concepts:** Pointer types, memory scaling, array decay into pointers when passed to functions.
+
+**Q12. Function Pointers**
+
+* **Task:** Declare a function pointer array to create a simple menu-driven calculator (addition, subtraction, multiplication, division).
+* **Core Concepts:** Declaration syntax `void (*func_ptr)(int, int)`, callbacks, jump tables.
+
+---
+
+### 6. Recursion
+
+**Q13. Tower of Hanoi**
+
+* **Task:** Solve the Tower of Hanoi problem for $N$ disks using recursion, printing all move steps.
+* **Core Concepts:** Base condition, recursive call stack, sub-problem breakdown.
+
+**Q14. Reverse a Linked List / String using Recursion**
+
+* **Task:** Write a recursive function to print or reverse a string/linked list without extra iterative loops.
+* **Core Concepts:** Base case execution, head vs tail recursion, processing on the unwinding phase of the stack.
+
+---
+
+### 7. Structures, Unions & Memory Alignment
+
+**Q15. Struct vs Union & Alignment Padding**
+
+* **Task:** Write a program defining a struct and a union with identical data members, print their total sizes using `sizeof()`, and explain why the struct size is often larger than the sum of its members.
+* **Core Concepts:** Memory alignment, structure padding, shared memory space in unions.
+
+**Q16. Dynamic Array of Structures**
+
+* **Task:** Create a structure `Student` (id, name, marks) and dynamically allocate memory for an array of $N$ students using `malloc()`. Accept inputs, calculate average marks, and free memory.
+* **Core Concepts:** Dynamic Memory Allocation (`malloc`/`calloc`/`free`), pointer to struct operator (`->`), memory leak prevention.
+
+---
+
+### 8. Dynamic Memory Management & Linked Lists
+
+**Q17. Implement a Singly Linked List (Insert, Delete, Search)**
+
+* **Task:** Write full C functions to insert a node at the head/tail, delete a node by value, and traverse the list.
+* **Core Concepts:** Heap allocation (`malloc`), struct self-referential pointers, dangling pointers, null checks.
+
+**Q18. Detect and Remove Loop in a Linked List (Floyd’s Cycle Detection)**
+
+* **Task:** Given the head of a linked list, detect if a loop exists, and if so, remove it.
+* **Core Concepts:** Slow and Fast pointer technique (Tortoise and Hare algorithm).
+
+---
+
+### 9. File Handling & Storage Classes
+
+**Q19. Copy File Contents and Count Words/Lines**
+
+* **Task:** Write a program to read a text file line by line using `fopen()`, count total words and lines, and write them to a separate output file.
+* **Core Concepts:** File pointers, Modes (`r`, `w`, `a`), `fgetc()`, `fgets()`, `fprintf()`, closing file handles (`fclose()`).
+
+**Q20. Demonstrate Storage Classes & Modifiers (`static`, `extern`, `volatile`)**
+
+* **Task:** Write a program with a function containing a `static` local variable called multiple times in a loop, and explain how its value persists across calls.
+* **Core Concepts:** Storage classes (`auto`, `static`, `extern`, `register`), variable scope, lifetime, and the `volatile` qualifier.
+
+---
