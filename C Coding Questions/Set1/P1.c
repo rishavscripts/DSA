@@ -2,7 +2,11 @@
 
 #include<stdio.h>
 #include<stdlib.h>
-void swap(int *p,int *q);
+void swap(int *p, int *q) {
+    int temp = *p;
+    *p = *q;
+    *q = temp;
+}
 int main(){
     int n;
     printf("Enter the Array Size: ");
@@ -21,18 +25,13 @@ int main(){
         printf("%d ",arr[i]);
     }
     // reversing the array.
-    for(int i=0;i<n/2;i++){
+   for (int i = 0; i < n / 2; i++) {
         swap(&arr[i], &arr[n - i - 1]);
     }
     // Printing the taken Array.
     printf("\nThe array: \n");
-    for(int i=0;i<n;i++){
+        for(int i=0;i<n;i++){
         printf("%d ",arr[i]);
     }
     return 0;
-}
-void swap(int *p, int *q){
-    int t=*p;
-    *p=*q;
-    *q=t;
 }
