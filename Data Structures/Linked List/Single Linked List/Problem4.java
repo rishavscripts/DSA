@@ -40,3 +40,7 @@ public class Problem4 {
     }
     public static Node deleteFirstNode(Node head){
         System.out.println("The deleted Node data : "+head.data);
+        head=head.next;
+        return head;
+    }
+}

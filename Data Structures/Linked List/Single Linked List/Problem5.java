@@ -38,5 +38,12 @@ public class Problem5 {
         System.out.println("The Linked List after Deleting the Last Node");
         print(head);
     }
-    public static Node deleteLastNode(Node node){
+     public static Node deleteLastNode(Node node){
         if(head==null || head.next==null) return null;
+        Node t1=head;
+        while(t1.next.next!=null){ t1=t1.next;}
+        System.out.println("Deleted Node Data: "+t1.next.data);
+        t1.next=null;
+        return head;
+    }
+}

@@ -40,3 +40,7 @@ public class Problem8 {
     public static int listSize(Node head){
         if(head==null){return 0;}
         int count=0;
+        while(head!=null){count++; head=head.next;}
+        return count;
+    }
+    }

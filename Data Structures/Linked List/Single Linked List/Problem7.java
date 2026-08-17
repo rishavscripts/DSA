@@ -39,4 +39,6 @@ public class Problem7 {
         return pos;
     }
     public static void print(Node head){
-        System.out.println("The Linked List :");
+        System.out.println("The Linked List :");}
+    }
+    

@@ -40,3 +40,5 @@ public class Problem6 {
         // static LL creation system generated.
         head=insertAtEnd(head, 0);
         head=insertAtEnd(head, 1);
+    }
+}

@@ -40,3 +40,32 @@ public class Problem3 {
         int data=sc.nextInt();
         head=insertAtPos(head,data,pos);
         print(head);
+    }
+    public static Node insertAtPos(Node head, int data, int pos){
+        int length=length(head);
+        if(pos>length || pos<0) {System.out.println("position does not exist. "); return head;}
+        else if(pos==length){return insertAtEnd(head, data);}
+        else{
+            Node temp1=head;
+            int i=0;
+            while(i<pos-1){
+                temp1=temp1.next;
+                i++;
+            }
+            Node temp2=temp1.next;
+            Node n = new Node(data);
+            temp1.next=n;
+            n.next=temp2;
+            return head;
+        }
+    }
+    public static int length(Node head){
+        if(head==null) return 0;
+        int count=0;
+        while(head!=null){
+            head=head.next;
+            count++;
+        }
+        return count;
+    }
+}
