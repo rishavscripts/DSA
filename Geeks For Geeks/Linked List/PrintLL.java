@@ -1,5 +1,3 @@
-
-//8. Count the number of nodes in a singly linked list.  
 import java.util.*;
 class Node{
     public int data;
@@ -8,9 +6,9 @@ class Node{
     Node(int data){this.data=data; this.next=null;}
     Node(int data, Node next){this.data=data; this.next=next;}
 }
-public class LengthLL {
-    static Scanner sc = new Scanner(System.in);
+public class PrintLL {
     static Node head=null;
+    static Scanner sc = new Scanner(System.in);
     public static void print(Node head){
         System.out.println("The Linked List :");
         while(head!=null){
@@ -45,4 +43,3 @@ public class LengthLL {
         return count;
     }
 }
-
