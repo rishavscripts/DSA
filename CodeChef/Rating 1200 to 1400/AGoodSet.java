@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class AGoodSet {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();   // number of test cases
+        while (t-- > 0) {
+            int n = sc.nextInt();   // size of the good set
+            // Print first n odd numbers
+            for (int i = 0; i < n; i++) {
+                System.out.print((2 * i + 1) + " ");
+            }
+            System.out.println();
+        }
+        sc.close();
+    }
+}
