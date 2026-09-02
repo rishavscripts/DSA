@@ -7,7 +7,7 @@ public class MaxBinary {
 		// your code goes here
         int t = sc.nextInt();
         while(t-- > 0){
-            int n = sc.nextInt();
+           // int n = sc.nextInt();
             int k = sc.nextInt();
             String s = sc.next();
             
