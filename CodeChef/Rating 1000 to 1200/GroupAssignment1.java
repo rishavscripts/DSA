@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class GroupAssignment {
+public class GroupAssignment1 {
     static Scanner sc = new Scanner(System.in);
 	public static void main (String[] args) throws java.lang.Exception
 	{
