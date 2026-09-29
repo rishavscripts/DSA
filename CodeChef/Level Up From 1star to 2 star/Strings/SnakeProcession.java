@@ -5,7 +5,7 @@ public class SnakeProcession {
     public static void main(String[] args) {
         int r = sc.nextInt();
         while (r-- > 0) {
-            int l = sc.nextInt();
+            //int l = sc.nextInt();
             String s = sc.next();
             boolean expectTail = false;
             boolean valid = true;
