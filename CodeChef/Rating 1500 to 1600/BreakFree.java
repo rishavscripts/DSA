@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class BreakFree {
-     static Scanner sc = new Scanner(System.in);
+    static Scanner sc = new Scanner(System.in);
     static final long MOD = 1000000007L;
 
     static long power(long a, long b) {
