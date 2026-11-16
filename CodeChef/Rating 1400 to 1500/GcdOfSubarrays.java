@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class GcdOfSubarrays {
-    static Scanner sc = new Scanner(System.in);
+   static Scanner sc = new Scanner(System.in);
 
     public static void main (String[] args) throws java.lang.Exception
     {
@@ -17,8 +17,8 @@ public class GcdOfSubarrays {
             if (k < minSum) {
                 System.out.println("-1");
             } else {
-                // The last element absorbs the remaining required sum
-                long lastElement = k - (n * (n - 1)) / 2;
+                // Correct calculation for the last element
+                long lastElement = k - minSum + 1;
                 
                 // Print N-1 ones followed by the last element
                 for (int i = 0; i < n - 1; i++) {
